@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <! -- This is the title of the page -->   
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du har 0 poeng</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logoholder">
+        <a href="index.html"><img src="images/placeholder.png" class="logo1" alt="Avatar"></a>
+      </div>
+      <div class="navlinks">
+        <nav>
+          <button class="navclick_holder" onclick><a href="index.html"  class="navclick">Hjemside</a></button>
+          <button class="navclick_holder"> <a href="making.html" class="navclick">Ka jeg lager</a></button>
+          <button class="navclick_holder"><a href="contact.html" class="navclick">Kontakt</a></button>
+          <button class="navclick_holder"><a href="song.html" class="navclick">Ukenes sanger</a></button>
+          <button class="navclick_holder"><a href="spill.html" class="navclick">Månedens spill</a></button>
+          <button class="navclick_holder"><a href="upc.html" class="navclick">Kommende spill</a></button>
+          <button class="navclick_holder"><a href="clicker.html" class="navclick">Clicker Spill</a></button>
+          
+        </nav>
+        
+      </div>
+      
+    </div>
+
+    <div class="game_holder">
+      <div class="game">
+        <h1 id="titleforgame" class="titleforgame">Du har 0 poeng</h1>
+        <input type="button" value="👆🏼" onclick="clix()" class="clix">
+        <p></p>
+      </div>
+    </div>
+    <div class="upgrades">
+      <h1 class="titleforupgrades">Oppgraderinger</h1>
+      <div class="upgrade_buttons">
+        
+        <!Her er oppgraderings-knappene, det er veldig mye avansert cookie greier under her, så ikke få meg til å forklare -->
+        <button id="upgrade1" onclick="upgrade1()">0 Autoclicker - 15</button>
+        <p>Klikker 1 poeng per sekund for hver du har</p>
+        <button id="upgrade2" onclick="upgrade2()">0 Underbetalte arbeidere - 150</button>
+        <p>Genererer deg 10 poeng per sekund for hver du har</p>
+        
+
+        
+      </div>
+    </div>
+    <div class="e_upgrades">
+      <! Dette er engangsoppgraderingene, og jeg har bare brukt ai, for cookie greier, all sånn at den forsvinner når mann trykker på den og all html-en og css har jeg gjort selv. Jeg har bare brukt ai for backend. -->
+      <h1 class="titlefor_e_upgrades">Engangs-oppgraderinger</h1>
+      <div class="upgrade_e_buttons">
+        <div id="redbull">
+          <button onclick="redbull()">RedBull - 200</button>
+          <p>Dobler hvor mye poeng du får fra autoclicker og vanelige klikk</p>
+        </div>
+        <div id="bedriftfest">
+          <button onclick="fest()">Bedriftfest - 1000</button>
+          <p>Arbeirdere jobber dobbelt så hardt for samme lønn</p>
+        </div>
+   
+        
+
+
+      </div>
+    </div>
+    <div class="resetholder">
+      <!Dette er reset knappen -->
+      <input type="button" value="Trykk her for å nullstille poeng" onclick="reseth()" class="reseth"">
+
+    </div>
+   
+    
+  </body>
+  
+</html>
+
+

@@ -1,0 +1,358 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #36383a;
+  
+}
+
+.navbar {
+  background-color: #1e1f20;
+  
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 16%;
+  left: 0;
+  z-index: 99;
+}
+
+.logoholder {
+  float: left;
+  margin-left: 1.85%;
+  margin-top: 34px;
+
+  height: 75%px;
+  width: 12%px;
+}
+
+.logo1 {
+  height: 100px;
+  width: 100px;
+  border-radius: 14px;
+}
+
+.navlinks {
+  float: left;
+  margin-left: 5%;
+  margin-top: 34px;
+  height: 58%;
+  width: 79%;
+  overflow: auto;
+
+
+  background-color: #000000;
+  
+  border-radius: 14px;
+}
+
+.navclick_holder {
+  float: left;
+  margin-left: 80px;
+  margin-top: 25px;
+  height: 50px;
+  width: 125px;
+  background-color: #36383a;
+
+
+  transition: transform 0.3s ease, background-color 0.3s ease, filter 0.3s ease;
+  border-radius: 7px;
+  border: none;
+  filter: drop-shadow(0px 0px 20px #36383a);
+}
+
+.navclick_holder:hover {
+  transform: scale(1.2);
+  background-color: white;
+
+  filter: drop-shadow(0px 0px 10px white);
+  .navclick {
+    color: #36383a;
+    
+  }
+}
+
+.navclick {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+
+
+.main1 {
+  margin-top: 200px;
+  height: 100%;
+  width: 50%;
+  background-color: #36383a;
+  
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 12%;
+  line-height: 1.5;
+}
+.main2 {
+  position: relative;
+  top: -450px;
+  height: 100%;
+  width: 50%;
+ 
+  background-color: #36383a;
+
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  margin-left: 12%;
+  line-height: 1.5;
+  
+}
+.d1 {
+
+  filter: drop-shadow(0px 0px 20px #823d3e);
+  
+}
+.songlist {
+  margin-top: 200px;
+  margin-left: 25%;
+  font-family: 'Montserrat', sans-serif;
+  
+  color: white;
+  width: 40%;
+}
+.lowersonglist2 {
+  margin-top: 50px;
+  transform: scale(0.8);
+  filter: drop-shadow(0px 0px 20px #535353);
+}
+.lowersonglist3 {
+  margin-top: 50px;
+  transform: scale(0.8);
+  filter: drop-shadow(0px 0px 20px #690000);
+}
+.lowersonglist4 {
+  margin-top: 50px;
+  transform: scale(0.8);
+  filter: drop-shadow(0px 0px 20px #303040);
+}
+.lowersonglist5 {
+  margin-top: 50px;
+  transform: scale(0.8);
+  filter: drop-shadow(0px 0px 20px currentcolor);
+}
+.game_holder {
+  margin-top: 200px;
+  margin-left: 25%;
+  font-family: 'Montserrat', sans-serif;
+  border: 3px solid #9497ff;
+  border-radius: 14px;
+  background-color: #304037;
+  color: white;
+  width: 40%;
+  height: 500px;
+}
+.clix {
+  width: 100px;
+  height: 100px;
+  border-radius: 14px;
+  font-size: 50px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 10%;
+  background-color: #1fdb89;
+  border: none;
+  filter: drop-shadow(0px 0px 20px #1fdb89);
+  transition: transform 0.05s ease, background-color 0.3s ease;
+}
+
+.clix:hover {
+  background-color: #24845b;
+  transform: translateX(-50%) scale(1.2);
+}
+.clix:active {
+  background-color: #24845b;
+  transform: translateX(-50%) scale(0.9);
+}
+
+.resetholder {
+  margin-top: 10%;
+  margin-left: 25%;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  width: 40%;
+}
+.titleforgame {
+  text-align: center;
+}
+.upgrades {
+  position: relative;
+  
+  margin-left: 72.5%;
+  top: -505px;
+  width: 25%;
+  height: 750px;
+  border: 3px solid #9497ff;
+  background-color: #304037;
+  border-radius: 14px;
+  z-index: 10;
+ 
+}
+.titleforupgrades {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  
+}
+
+.upgrade_buttons {
+  margin-top: 10%;
+  margin-left: 20%;
+ 
+  background-color: #9497ff;
+  border-radius: 14px;
+  height: 75%;
+  width: 60%;
+  overflow: auto;
+  button {
+    display: block;
+    margin-top: 40%;
+    
+    width: 80%;
+    margin-left: 10%;
+    height: 70px;
+    border-radius: 7px;
+    background-color: #110e0f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    font-size: 26px;
+    
+  }
+  button:hover {
+    color: yellow;
+    transform: scale(1.2);
+  }
+  p {
+    margin-bottom: 40%;
+    margin-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color : black;
+  }
+}
+
+.e_upgrades {
+  position: relative;
+
+  margin-left: 2.5%;
+  top: -1257.5px;
+  width: 15%;
+  height: 750px;
+  border: 3px solid #9497ff;
+  background-color: #304037;
+  border-radius: 14px;
+  z-index: 10;
+
+}
+.titlefor_e_upgrades {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+
+}
+
+.upgrade_e_buttons {
+  margin-top: 10%;
+  margin-left: 20%;
+
+  background-color: #9497ff;
+  border-radius: 14px;
+  height: 75%;
+  width: 50%;
+  overflow: auto;
+  button {
+    display: block;
+    margin-top: 40%;
+    transform: scale(0.8);
+    width: 80%;
+    margin-left: 10%;
+    height: 70px;
+    border-radius: 7px;
+    background-color: #110e0f;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+    font-weight: bold;
+    font-size: 15px;
+
+  }
+  button:hover {
+    color: yellow;
+    transform: scale(1.0);
+  }
+  p {
+    margin-bottom: 40%;
+    margin-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+    color : black;
+  }
+}
+
+.linkz {
+  color: #e193a0;
+  
+}
+
+
+.gamevideo {
+  position: relative;
+  border-radius: 28px;
+  top: -500px;
+}
+
+.titlescreenpng {
+  position: relative;
+  top: -275px;
+  left: -362.5px;
+  transform: scale(0.4)
+}
+
+.gass {
+  position: relative;
+  left: -8.5%;
+  transform: scale(0.8);
+  margin-top: 100px;
+}
+
+.gta6title {
+  font-size: 128px;
+  text-decoration: none;
+  transition: transform 1s ease, color 1s ease, letter-spacing 1s ease;
+  text-align: center;
+  text-shadow: #000 0px 0px 5px,   #000 0px 0px 5px,   #000 0px 0px 5px,
+             #000 0px 0px 5px,   #000 0px 0px 5px,   #000 0px 0px 5px;
+
+}
+
+.gta6title:hover {
+  transform: scale(1.2);
+  color: #ad780e;
+  letter-spacing: 20px;
+}
+
+
+
+.gta6 {
+  
+  width: 100%;
+  
+  
+  
+ 
+}
+
+
+
+
+
