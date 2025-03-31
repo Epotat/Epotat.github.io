@@ -15,7 +15,7 @@ window.onload = function() {
     uV1 = getCookie("uV1") ? parseInt(getCookie("uV1")) : 15;
     uV2 = getCookie("uV2") ? parseInt(getCookie("uV2")) : 150;
     autoClickerCount = getCookie("autoClickers") ? parseInt(getCookie("autoClickers")) : 0;
-    redbulls = getCookie("redbull") ? parseInt(getCookie("redbulls")) : 1;
+    redbulls = getCookie("redbulls") ? parseInt(getCookie("redbulls")) : 1;
     ap = getCookie("ap") ? parseInt(getCookie("ap")) : 0;
     fester = getCookie("fester") ? parseInt(getCookie("fester")) : 1;
     updateDisplay();
@@ -80,7 +80,7 @@ if (document.readyState === 'loading') {
       document.getElementById("redbull").style.display = "none";
     }
     if (fester >= 2) {
-      document.getElementById("bedriftfest").style.display = "none"
+      document.getElementById("bedriftfest").style.display = "none";
     }
   });
 } else {
@@ -88,7 +88,7 @@ if (document.readyState === 'loading') {
     document.getElementById("redbull").style.display = "none";
   }
   if (fester >= 2) {
-    document.getElementById("bedriftfest").style.display = "none"
+    document.getElementById("bedriftfest").style.display = "none";
   }
 }
 
