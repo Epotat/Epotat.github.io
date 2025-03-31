@@ -21,7 +21,7 @@ window.onload = function() {
     updateDisplay();
 
   if(redbulls >= 2) {
-    document.getElementById("redbull").style.display = "none";
+    document.getElementById("redbulls").style.display = "none";
   }
 
   if(fester >= 2) {
@@ -77,7 +77,7 @@ setInterval(function() {
 if (document.readyState === 'loading') {
   document.addEventListener('DOMContentLoaded', function() {
     if (redbulls >= 2) {
-      document.getElementById("redbull").style.display = "none";
+      document.getElementById("redbulls").style.display = "none";
     }
     if (fester >= 2) {
       document.getElementById("bedriftfest").style.display = "none";
@@ -85,7 +85,7 @@ if (document.readyState === 'loading') {
   });
 } else {
   if (redbulls >= 2) {
-    document.getElementById("redbull").style.display = "none";
+    document.getElementById("redbulls").style.display = "none";
   }
   if (fester >= 2) {
     document.getElementById("bedriftfest").style.display = "none";
@@ -176,7 +176,7 @@ function reseth() {
   document.getElementById("titleforgame").innerHTML = comb;
   document.getElementById("upgrade1").innerHTML = uv1comb;
   document.getElementById("upgrade2").innerHTML = uv2comb;
-  document.getElementById("redbull").style.display = "block";
+  document.getElementById("redbulls").style.display = "block";
   document.getElementById("bedriftfest").style.display = "block";
   // Save points to cookie
   setCookie("points", p, 365);
@@ -194,7 +194,7 @@ function redbull() {
    document.title = comb;
    redbulls += 1;
    document.getElementById("titleforgame").innerHTML = comb;
-   document.getElementById("redbull").style.display = "none";
+   document.getElementById("redbulls").style.display = "none";
    // Save points to cookie
    setCookie("points", p, 365);
    setCookie("redbulls", redbulls, 365);
