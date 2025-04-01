@@ -19,6 +19,8 @@ window.onload = function() {
     ap = getCookie("ap") ? parseInt(getCookie("ap")) : 0;
     fester = getCookie("fester") ? parseInt(getCookie("fester")) : 1;
     updateDisplay();
+    upgt = document.getElementsByClassName("overflowtext");
+
 
   if(redbulls >= 2) {
     document.getElementById("redbulls").style.display = "none";
