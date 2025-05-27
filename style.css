@@ -226,7 +226,7 @@ html {
     border: none;
     transition: transform 0.3s ease, color 0.3s ease;
     font-weight: bold;
-    font-size: 26px;
+    font-size: 18px;
     
   }
   button:hover {
