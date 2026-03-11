@@ -8,6 +8,13 @@ body {
     background-color:rgb(47, 43, 49);
 }
 
+.homelink {
+    font-size: 90%;
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 
 .navbar {
   background-color: black;
@@ -18,12 +25,4 @@ body {
   height: 10%;
   left: 0;
   z-index: 99;
-  .homelink {
-    font-size: 50%;
-    text-decoration: none;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-}
-
 }
