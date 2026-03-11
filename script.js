@@ -6,7 +6,7 @@ function resizeText() {
   const containerHeight = container.clientHeight;
 
   // Set font-size as a percentage of the smaller dimension
-  const fontSize = Math.min(containerWidth, containerHeight) * 0.3; // 30% of width/height
+  const fontSize = Math.min(containerWidth, containerHeight) * 0.1; // 30% of width/height
   text.style.fontSize = fontSize + 'px';
 }
 
