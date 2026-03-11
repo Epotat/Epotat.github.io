@@ -2,14 +2,14 @@ const container = document.querySelector('.navbar');
 const text = document.getElementById('hometext');
 
 function resizeText() {
-  const containerWidth = container.clientWidth;
   const containerHeight = container.clientHeight;
 
-  // Set font-size as a percentage of the smaller dimension
-  const fontSize = Math.min(containerWidth, containerHeight) * 0.1; // 30% of width/height
+  // Set font-size as a percentage of navbar height
+  const fontSize = containerHeight * 0.7; // 70% of navbar height
   text.style.fontSize = fontSize + 'px';
 }
 
-// Run on load and when window resizes
+// Run on load and on window resize
+window.addEventListener('load', resizeText);
 window.addEventListener('resize', resizeText);
-resizeText();
+resizeText()
