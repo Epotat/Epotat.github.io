@@ -1,5 +1,5 @@
-const container = document.querySelector('.container');
-const text = document.getElementById('text');
+const container = document.querySelector('.navbar');
+const text = document.getElementById('hometext');
 
 function resizeText() {
   const containerWidth = container.clientWidth;
