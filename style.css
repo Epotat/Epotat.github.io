@@ -22,11 +22,12 @@ html, body {
     border-radius: 15px;
     margin-left: 20px;
     margin-top: 50%;
+    transition: font-size 0.3 ease;
 }
 
 .homelink:hover {
     font-size: 36px;
-    background-color: rgb(41, 41, 41);
+    
 
 }
 
