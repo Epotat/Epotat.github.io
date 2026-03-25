@@ -10,7 +10,23 @@ html, body {
 
 
 
+.homelink {
+    
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    white-space: nowrap;
+    font-size: 24px;
+    border-radius: 15%;
+}
 
+.homelink:hover {
+    font-size: 36px;
+    background-color: rgb(41, 41, 41);
+
+}
 
 .navbar {
   background-color: black;
@@ -18,7 +34,7 @@ html, body {
   position: fixed;
   top: 0;
   width: 100%;
-  height: 16%;
+  height: 10%;
   left: 0;
   z-index: 99;
 
