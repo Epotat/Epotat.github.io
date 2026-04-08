@@ -107,7 +107,7 @@ html {
 }
 .d1 {
 
-  filter: drop-shadow(0px 0px 20px #823d3e);
+  filter: drop-shadow(0px 0px 20px #645100);
   
 }
 .songlist {
@@ -121,22 +121,22 @@ html {
 .lowersonglist2 {
   margin-top: 50px;
   transform: scale(0.8);
-  filter: drop-shadow(0px 0px 20px #535353);
+  filter: drop-shadow(0px 0px 20px #634e4e);
 }
 .lowersonglist3 {
   margin-top: 50px;
   transform: scale(0.8);
-  filter: drop-shadow(0px 0px 20px #690000);
+  filter: drop-shadow(0px 0px 20px #5a5400);
 }
 .lowersonglist4 {
   margin-top: 50px;
   transform: scale(0.8);
-  filter: drop-shadow(0px 0px 20px #303040);
+  filter: drop-shadow(0px 0px 20px #863a3b);
 }
 .lowersonglist5 {
   margin-top: 50px;
   transform: scale(0.8);
-  filter: drop-shadow(0px 0px 20px currentcolor);
+  filter: drop-shadow(0px 0px 20px #405820);
 }
 .game_holder {
   margin-top: 200px;
